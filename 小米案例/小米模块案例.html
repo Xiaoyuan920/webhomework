@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box{
+				width: 1226px;
+				height: 614px;
+				background-color: pink;
+				margin: 0 auto;
+			}
+			.left{
+				width: 234px;
+				height: 614px;
+				background-color: #800080;
+				float: left;	
+			}
+			.right{
+				width: 978px;
+				height: 614px;
+				background-color: #008000;
+				float: right;	
+			}
+			.s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8{
+				width: 234px;
+				height: 300px;
+				background-color: #87ceeb;
+				margin-right: 14px;
+				margin-bottom: 14px;
+				float: left;		
+			}
+			.right div:nth-child(4n){
+				margin-right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="left"></div>
+			<div class="right">
+				<div class="s1">s1</div>
+				<div class="s2">s2</div>
+				<div class="s3">s3</div>
+				<div class="s4">s4</div>
+				<div class="s5">s5</div>
+				<div class="s6">s6</div>
+				<div class="s7">s7</div>
+				<div class="s8">s8</div>
+			</div>	
+		</div>	
+	</body>
+</html>
