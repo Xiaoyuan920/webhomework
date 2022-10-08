@@ -7,5 +7,5 @@
 ```
 ## git remote -v
 查看git远程仓库
-## git stauts
+## git status
 查看git仓库工作树情况
