@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 对于title的设定 */
+header {
+  width: auto;
+  height: 130px;
+  background-color: antiquewhite;
+}
+.top {
+    background: #282828;
+    width: auto;
+    height: 30px;
+}
+.top > div {
+  margin: auto;
+  width: 1000px;
+  color: #a5a4a4;
+  line-height: 30px;
+}
+.w1 {
+  float: left;
+}
+.w2 {
+  float: right;
+}
+a {
+    text-decoration: none;
+    color: #a5a4a4;
+}
+/* head二 */
+
+
