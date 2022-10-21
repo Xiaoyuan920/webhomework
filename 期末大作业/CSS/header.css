@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font: 12px/20px 'Microsoft YaHei', arial, sans-serif;
+  color: #333;
+  
+}
 /* 对于title的设定 */
 header {
   width: 100%;
@@ -14,30 +19,38 @@ header {
 }
 .top > div {
   margin: auto;
-  width: 1000px;
+  width: 1300px;
   color: #a5a4a4;
+  line-height: 30px;
 }
-.w1 {
-  float: left;
+.time {
+  display: inline;
 }
 .w2 {
   float: right;
-  line-height: 30px;
 }
 a {
-    text-decoration: none;
-    color: #a5a4a4;
+  color: #a5a4a4;
+  text-decoration: none;
 }
 /* head二 */
 .head {
   width: 100%;
   height: 100px;
-  background-image: url("../image/head.jpg");
-  background-repeat: no-repeat;
+  background: url("../image/head.jpg") no-repeat center center;
+  
 }
-span {
-  height: 100px;
-  background: url("../image/jjlogo.png");
-  background-repeat: no-repeat;
+.w3 {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    display: table;
 }
-
+.f1 {
+  margin: 0.67em 0em ;
+}
+.f1>a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0%;
+}
