@@ -1,0 +1,60 @@
+aside {
+    width: 100%;
+    height: 335px;
+    background-image: url("../image/jju_7.jpg");
+}
+.image li {
+    display: inline-block;
+    list-style: none;
+}
+.forword {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 170px;
+    width: 118px;
+    height: 335px;
+    background: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 335px;
+    font-size: 100px;
+}
+.center {
+    float: right;
+    width: 1300px;
+    height: 335px;
+    overflow: hidden;
+}
+.back {
+    color: rgba(255, 255, 255, 0.5);
+    float: right;
+    width: 118px;
+    height: 335px;
+    background: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 335px;
+    font-size: 100px;
+    cursor: pointer;
+}
+.back:hover {
+    color: rgb(255, 255, 255);
+}
+.forword:hover {
+    color: rgb(255, 255, 255);
+}
+.im {
+    left: 0px;
+    width: 500%;
+    height: 335px;
+}
+.im li {
+    float: left;
+    width: 1300px;
+    height: 335px;
+} 
+.im li img {
+    width: 100%;
+    height: 100%;
+}
