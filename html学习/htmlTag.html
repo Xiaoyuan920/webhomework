@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- 简体中文 -->
+<html lang="zh-CN">
+<head>
+    <!-- 指定文档中的字符编码 -->
+    <meta charset="UTF-8">
+    <!-- 说明网页作者与描述，针对搜索引擎 -->
+    <meta name="author" content="梨">
+    <!-- 对IE浏览器的兼容性设置 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 对视口（viewport）的声明，html5响应布局 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <!-- 图标 -->
+    <link rel="icon" href="../html学习/图标.ico" type="image/x-icon">
+    <!-- 链接到外部样式css文件 -->
+    <link rel="stylesheet" href="#" type="text/css">
+    <!-- HTML文档的样式文件 -->
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <!-- 客户端的脚本文件  -->
+    <script src="#"></script>
+    <script>
+        var m = "javascript";
+        console.log(m);
+    </script>
+</head>
+<body>
+    <!-- 标题标签 -->
+    <h1>一级标题</h1>
+    <h2>二级标题</h2>
+    <h3>三级标题</h3>
+    <h4>四级标题</h4>
+    <h5>五级标题</h5>
+    <h6>六级标题</h6>
+    <!-- 段落标签 -->
+    <p>这是一个段落</p>
+    <!-- 列表标签 -->
+    <!-- 无序 -->
+    <ul>
+        <li>无序列表项</li>
+    </ul>
+    <!-- 有序 -->
+    <ol>
+        <li>有序列表项</li>
+    </ol>
+    <!-- 斜体 -->
+    <em>强调</em>
+    <!-- 粗体 -->
+    <strong>非常重要</strong>
+    <!-- 斜体字 -->
+    <i>斜体</i>
+    <!-- 粗体字 -->
+    <b>粗体</b>
+    <!-- 下划线 -->
+    <u>下划线</u>
+    <!-- 超链接 -->
+    <a href="#">超链接</a>
+    <p>创建了一个指向<a href="https://www.jju.edu.cn">九江学院</a>的超链接。</p>
+    <!-- 自定义列表 -->
+    <dl>
+        <dt>描述标题</dt>
+        <dd>描述内容</dd>
+    </dl>
+    <!-- 块引用\<blockquote>标签 -->
+    <!-- 行引用\<q>标签 -->
+    <!-- 引用属性cite -->
+    <blockquote cite="https://www.jju.edu.cn/">块引用会形成缩进</blockquote>
+    <p>行内引用，<q cite="https://www.jju.edu.cn/">会形成双引号</q></p>
+    <!-- 缩略语<abbr>标签 -->
+    <p><abbr title="九江学院">九院</abbr>是我们大学四年生活学习的地方</p>
+    <!-- 联系方式<address>标签 -->
+    <address>地址信息</address>
+    <!-- 标<sup>和下标<sub>标签 -->
+    <p>水的化学分子式H<sub>2</sub>O。</p>
+    <p>3<sup>2</sup>的值为9</p>
+    <!-- 图片标签 -->
+    <img src="#" alt="#">
+    <img src="网址上的" alt="#">
+    <!-- 为图片配说明的用法 -->
+    <figure>
+        <img src="#" alt="#" width="一只恐龙头部和躯干的骨架" width="200px" height="200px">
+        <figcaption>博物馆展出的一只化石</figcaption>
+    </figure>
+    <!-- 视频标签 -->
+    <video controls>
+        <source src="###" type="video/mp4"/>
+        <source src="###" type="video/webm"/>
+        <p>你的浏览器不支持HTML5视频，可点击<a href="##">此链接</a>观看</p>
+    </video>
+    <!-- 音频标签 -->
+    <audio controls>
+        <source src="#" type="audio/mp3"/>
+        <source src="#" type="audio/ogg"/>
+        <p>你的浏览器不支持HTML5视频，可点击<a href="viper.mp3">此链接</a>收听</p>
+    </audio>
+    <!-- <iframe>标签  -->
+        <iframe src="https://www.cctv.com" frameborder="0" sandbox=""></iframe>
+    <!-- <embed>标签   -->
+        <embed src="/media/cc0-videos/frowe.mp4" type="video/webm"/>
+    <!-- <object>标签  -->
+        <object data="media/examples/In-cco.pdf" type="application/pdf"></object>
+    <!-- 表格 -->
+    <table>
+        <tr>
+            <td>单元格1</td>
+            <td>单元格2</td>
+            <td>单元格3</td>
+        </tr>
+    </table>
+    <!-- 标题标签 -->
+    <table>
+        <tr>
+            <th>标题</th>
+            <td>单元格2</td>
+            <td>单元格3</td>
+        </tr>
+    </table>
+    <!-- 单元格跨越行和列 -->
+    <table>
+        <tr>
+            <td colspan="2">单元格1</td>
+            <td>单元格2</td>
+            <td>单元格3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">单元格1</td>
+            <td>单元格2</td>
+            <td>单元格3</td>
+        </tr>
+    </table>
+    <!--  <caption>标签为表格增加标题  -->
+    <table>
+        <caption>表格标题</caption>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <!--划分表格结构  -->
+    <table>
+        <caption>标题</caption>
+        <thead>头</thead>
+        <tfoot>尾部</tfoot>
+        <tbody>身体</tbody>
+    </table>
+    <!-- 表单 -->
+    <form action="#">
+        <ul>
+            <li>
+                <label for="name">发件人:</label>
+                <input type="text" name="username" id="name">
+            </li>
+            <li>
+                <label for="mail">收件人:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+                <label for="msg">消息:</label>
+                <textarea name="user_messasge" id="msg" cols="30" rows="10"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">发送</button>
+            </li>
+        </ul>
+    </form>
+    <form action="#">
+        <!-- 单行文本框 -->
+        <input type="text" id="comment" name="comment" value="单行文本框"/>
+        <!-- 密码框 -->
+        <input type="password" id="pwd" name="pwd"/>
+        <!-- 隐藏内容 -->
+        <input type="hidden" id="edit_id" name="edit_id" value="18"/>
+        <!-- 复选框 -->
+        <input type="checkbox" id="one" name="choice" value="-" checked/>
+        <input type="checkbox" id="two" name="choice" value="-" checked/>
+        <!-- 单选按钮 -->
+        <input type="radio" id="opt_a" name="question" checked/>
+        <input type="radio" id="opt_b" name="question"/>
+        <input type="radio" id="opt_c" name="question"/>
+        <!-- button -->
+        <button type="submit">提交<strong>按钮</strong></button>
+        <input type="submit" value="提交按钮"/>
+        <!-- reset -->
+        <button type="reset">重置<strong>按钮</strong></button>
+        <input type="reset" value="重置按钮"/>
+        <!--图像按钮  -->
+        <input type="image" alt="点击" src="*.png" width="80" height="30"/>
+        <!--文件选择器  -->
+        <input type="file" name="file" id="file" accept="image/*" multiple/>
+        <!-- email字段 -->
+        <input type="email" id="email" name="email" multiple/>
+        <!-- 查询字段 -->
+        <input type="search" id="search" name="search"/>
+        <!-- 电话号码字段 -->
+        <input type="tel" id="tel" name="tel"/>
+        <!-- URL字段 -->
+        <input type="url" id="url" name="url"/>
+        <!-- 数字字段 -->
+        <input type="number" id="age" name="age" min="1" max="10" step="2"/>
+        <!-- 滑块控件 -->
+        <input type="range" name="n" id="n" min="1" max="100" step="10"/>
+        <!-- 日期与时间选择器 -->
+        <input type="date" name="date" id="date"/>
+        <input type="time" name="time" id="time"/>
+        <input type="datetime-local" name="datetime" id="datetime"/>
+        <input type="month" name=month id="month"/>
+        <input type="week" name="week" id="week"/>
+        <input type="date" name="mydate" min="2022-09-01" max="2022-12-31" step="7" id="mydate"/>
+        <!-- 颜色选择控件 -->
+        <input type="color" name="color" id="color"/>
+        <!-- 多行文本框 -->
+        <textarea name="a" id="a" cols="30" rows="10"></textarea>
+        <!-- 下拉控件：单选框 -->
+        <select name="simple" id="simple">
+            <option value="1">梨</option>
+            <option value="2" selected>香蕉</option>
+        </select>
+        <select name="groups" id="groups">
+            <optgroup label="水果">
+                <option>苹果</option>
+                <option>草莓</option>
+            </optgroup>
+            <optgroup label="蔬菜">
+                <option>青菜</option>
+                <option value="番茄">番茄</option>
+            </optgroup>
+        </select>
+        <select name="b" id="b">
+            <option value="1">选项一</option>
+            <option value="2">选项二</option>
+            <option value="3">选项三</option>
+        </select>
+        <select name="groups" id="groups" multiple>
+            <optgroup label="水果">
+                <option>苹果</option>
+                <option selected>草莓</option>
+            </optgroup>
+            <optgroup label="蔬菜">
+                <option>青菜</option>
+                <option value="番茄">番茄</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
