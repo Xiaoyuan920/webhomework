@@ -12,8 +12,8 @@ forword.addEventListener("click",function(){
     }else{
         count=0;
     }
-    im.src="../image/"+arra[count];
-    bg.style.backgroundImage = 'url('+"../image/"+arra1[count]+')';});
+    im.src="image/"+arra[count];
+    bg.style.backgroundImage = 'url('+"image/"+arra1[count]+')';});
 
 back.addEventListener("click",function(){
     if(count==5){
@@ -21,8 +21,8 @@ back.addEventListener("click",function(){
     }else{
         count++;
     }
-    im.src="../image/"+arra[count];
-    bg.style.backgroundImage = 'url('+"../image/"+arra1[count]+')';
+    im.src="image/"+arra[count];
+    bg.style.backgroundImage = 'url('+"image/"+arra1[count]+')';
 });
 
 setInterval(() => {
@@ -32,6 +32,6 @@ setInterval(() => {
         count++;
     }
     console.log(count);
-    bg.style.backgroundImage = 'url('+"../image/"+arra1[count]+')';
-    im.src="../image/"+arra[count];
+    bg.style.backgroundImage = 'url('+"image/"+arra1[count]+')';
+    im.src="image/"+arra[count];
 }, 3000);
