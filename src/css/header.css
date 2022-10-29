@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 12px/20px 'Microsoft YaHei', arial, sans-serif;
+  color: #333;
+  
+}
+/* 对于title的设定 */
+header {
+  width: 100%;
+  height: 130px;
+}
+.top {
+    background: #282828;
+    width: 100%;
+    height: 30px;
+}
+.top > div {
+  margin: auto;
+  width: 1300px;
+  color: #a5a4a4;
+  line-height: 30px;
+}
+.time {
+  display: inline;
+}
+.w2 {
+  float: right;
+}
+a {
+  font: 12px/20px 'Microsoft YaHei', arial, sans-serif;
+  color: #a5a4a4;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* head二 */
+.head {
+  width: 100%;
+  height: 100px;
+  background: url("../image/head.jpg") no-repeat center center;
+  
+}
+.w3 {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+}
+.f1 {
+  margin: 0.67em 0em ;
+  display: inline-block;
+}
+.f1>a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0%;
+}
+.w4 {
+  width: 300px;
+  height: 100px;
+  float: right;
+}
+span {
+  margin-left: 25px;
+  margin-top: 15px;
+  float: right;
+  text-align: center;
+}
+strong {
+  font: 12px/20px 'Microsoft YaHei', arial, sans-serif;
+  font-style: normal;
+  color: #f8b2ae;
+  font-size: 14px;
+}
