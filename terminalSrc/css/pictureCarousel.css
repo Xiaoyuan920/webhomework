@@ -14,14 +14,36 @@
     height: 100%;
 }
 #forword {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 109px;
+    width: 86px;
     height: 100%;
     float: left;
+    background-color:rgba(0, 0, 0, .5);
 }
 #back {
-    background-color:  rgba(255, 255, 255, 0.5);
-    width: 110.2px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 86.5px;
     height: 100%;
     float: right;
+}
+#forwordleft {
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    width: 32px;
+    height: 45px;
+    background: url("../image/slider-arrow.png") no-repeat -192px -142px;
+}
+#backright {
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    width: 32px;
+    height: 45px;
+    background: url("../image/slider-arrow.png") no-repeat -80px -142px;
+}
+#forword:hover #forwordleft {
+    background-position:-134px -142px ;
+}
+#back:hover #backright {
+    background-position:-16px -142px ;
 }
