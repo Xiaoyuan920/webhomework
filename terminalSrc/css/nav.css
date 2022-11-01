@@ -12,6 +12,13 @@ nav {
     position: relative;
     display: table;
 }
+/* 首页操作 */
+#m1 {
+    background-color: #89211b;
+}
+#m1 a{
+    color: #fff;
+}
 #n1 li {
     width: 118px;
     float: left;

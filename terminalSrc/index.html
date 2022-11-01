@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/pictureCarousel.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div>
@@ -18,9 +19,9 @@
                     <span id="topright">
                         <a href="#">网站旧版</a>
                         |
-                        <a href="#">设为首页</a>
+                        <a href="#" id="first">设为首页</a>
                         |
-                        <a href="#">加入收藏</a>
+                        <a href="#" id="select" onclick="select()">加入收藏</a>
                     </span>
                 </div>
            </div>
@@ -182,37 +183,38 @@
             </span>
         </section>
         <main>
-            <div id="b1">
-                <img src="#" alt="">
-                <p>学院新闻</p>
-                <p>...</p>
-            </div>
-            <section>
+            <div id="centerbox1">
+              <div id="b1">
+                <img src="./image/news.jpg" alt="">
+                <span>学院新闻</span>
+                <a href="#"></a>
+              </div>
+              <section>
                 <article>
                     <span id="c1">
-                        <img src="#" alt="">
+                        <img src="./image/zgllw.jpg" alt="">
                         <a href="#">王万山副校长出席用友第十二届数智...</a>
                         <p>八月中旬，应用友集团的邀请，我校王万山副校长带领经济学院党委副书记谢忠等一行...<br/>2022-08-18</p>
                     </span>
                     <span id="c2">
-                        <img src="#" alt="">
+                        <img src="./image/zgkfdx.jpg" alt="">
                         <a href="#">经济学院举行课程思政建设交流会</a>
                         <p>为进一步提升学院教师课程思政教学能力和业务水平,有效推进学院课程思政建设工作，</p>
                     </span>
                     <span id="c3">
                         <ul>
-                            <li><a href="#">喜报！我院国际经济与贸易专业入选省级一流本科专...喜报！我院国际经济与贸易专业入选省级一流本科专...</a><p>[2022-06-16]</p></li>
-                            <li><a href="#">经济学院召开2023届毕业生就业工作部署会</a><p>[2022-10-24]</p></li>
-                            <li><a href="#">经济学院组织开展“科学饮食，告别浪费”主题团日活动</a><p>[2022-10-24]</p></li>
-                            <li><a href="#">经济学院与医学院联合举办友谊辩论赛</a><p>[2022-10-22]</p></li>
+                            <li><p class="c31"><strong><a href="#">喜报！我院国际经济与贸易专业入选省级一流本科专...</a></strong>[2022-06-16]</p></li>
+                            <li><p><a href="#">经济学院召开2023届毕业生就业工作部署会</a>[2022-10-24]</p></li>
+                            <li><p><a href="#">经济学院组织开展“科学饮食，告别浪费”主题团日活动</a>[2022-10-24]</p></li>
+                            <li><p><a href="#">经济学院与医学院联合举办友谊辩论赛</a>[2022-10-22]</p></li>
                         </ul>
                     </span>
                     <span id="c4">
                         <ul>
-                            <li><a href="#">经济学院组织开展金融、国贸专场考研备考指导</a><p>[2022-10-20]</p></li>
-                            <li><a href="#">经济学院组织开展“学习二十大，奋进新征程”主题...</a><p>[2022-10-17]</p></li>
-                            <li><a href="#">经济学院组织集中观看党的二十大开幕会盛况</a><p>[2022-10-16]</p></li>
-                            <li><a href="#">经济学院学生会改革情况</a><p>[2022-10-14]</p></li>
+                            <li><p><a href="#">经济学院组织开展金融、国贸专场考研备考指导</a>[2022-10-20]</p></li>
+                            <li><p><a href="#">经济学院组织开展“学习二十大，奋进新征程”主题...</a>[2022-10-17]</p></li>
+                            <li><p><a href="#">经济学院组织集中观看党的二十大开幕会盛况</a>[2022-10-16]</p></li>
+                            <li><p><a href="#">经济学院学生会改革情况</a>[2022-10-14]</p></li>
                         </ul>
                     </span>
                 </article>
@@ -302,8 +304,9 @@
                     </ul>
                 </div>
             </section>
+            </div>
         </main>
-        <footer>
+        <footer>  
             <div>
                 <p>
                     <address>地址：九江市前进东路551号九江学院义丰楼六楼</address>
@@ -321,5 +324,6 @@
     </div>
     <script src="./javascript/time.js"></script>
     <script src="./javascript/carousel.js"></script>
+    <script src="./javascript/headerEvent.js"></script>
 </body>
 </html>
