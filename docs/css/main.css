@@ -1,0 +1,103 @@
+main {
+    position: absolute;
+    top: auto;
+    width: 100%;
+    height: 335px;
+    background: #f7f7f7 url("../image/bg.jpg") no-repeat center top;
+    
+}
+#centerbox1 {
+    width: 1300px;
+    height: 100%;
+    margin: 0px auto;
+}
+#b1 {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px #b2b2b2 dashed;
+    padding-bottom: 10px;
+}
+#b1>img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    display: inline-block;
+}
+#b1>span {
+    display:inline-block;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #89211b;
+    overflow: auto;
+}
+#b1>a {
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    background: url("../image/more.jpg") no-repeat center center;
+    float: right;
+}
+#centerbox1>section {
+    width:100%;
+    height:285px;
+}
+#centerbox1 section article {
+    width: 100%;
+    height: 285px;
+    margin-top: 30px;
+    /* background-color: beige; */
+}
+#c1,#c2,#c3,#c4{
+    display: inline-block;
+    width: 290px;
+    height: 285px;
+    margin-right: 25px;
+    float: left;
+}
+#c1>img {
+    width: 290px;
+    height: 173.51px;
+}
+#c1>a,#c2>a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#c1>p,#c2>p{
+    padding: 5px 10px 0 10px;
+    height: 40px;
+    line-height: 20px;
+    color: #666;
+    display: block;
+}
+
+#c2>img {
+    width:290px;
+    height: 220.23px;
+}
+/* 第三块 */
+#c3 ul li,#c4 ul li{
+    list-style-type: none;
+    border-bottom: 1px #e1e1e1 solid;
+    width: 250px;
+    height: 62px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 5px;
+}
+#c3 ul li p a,#c4 ul li p a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.c31 {
+    color: #333333;
+    font-size: 14px;
+} 
+/* 总的 */
+#centerbox1 section article a:hover {
+    color: #89211b;
+}
