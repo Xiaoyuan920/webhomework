@@ -1,14 +1,12 @@
 var car = document.getElementById("car");
 let left=0;
-run();
-function run (){
+runcar();
+function runcar (){
     car.style.marginLeft = left + "px";
-    if(left<=0&&left>=-335){
-        left-=335;
+    if(left<=0&&left>=-308){
+        left-=308;
     }else{
-        left+=335;
+        left+=616;
     }
-    setTimeout(run,2000);
+    setTimeout(runcar,2000);
 }
-
-
